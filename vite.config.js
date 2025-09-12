@@ -10,5 +10,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, 'src'),
     },
   },
-  base: '/JKS/', // 👈 this is the key fix for GitHub Pages
+  base: '/JKS/', // important for GitHub Pages
 });
