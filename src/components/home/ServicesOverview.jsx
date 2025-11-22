@@ -125,7 +125,7 @@ export default function ServicesOverview() {
                 </div>
                 
                 <Link to={createPageUrl("Contact")} className="block">
-                  <Button className="w-full group-hover:bg-green-700 bg-green-600 transition-colors duration-300">
+                  <Button className="w-full hover:bg-green-700 bg-green-600 transition-colors duration-300">
                     Get Started
                     <ArrowRight className="w-4 h-4 ml-2" />
                   </Button>
