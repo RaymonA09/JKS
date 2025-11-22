@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
 import { MapPin, Phone, Mail, FileText, Users, Briefcase, Newspaper, Building, Menu, X } from "lucide-react";
 
-export default function Layout({ children, currentPageName }) {
+export default function Layout({ children, /*currentPageName*/ }) {
   const location = useLocation();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
