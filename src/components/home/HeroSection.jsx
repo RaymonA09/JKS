@@ -18,7 +18,7 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <div className="flex items-center space-x-2 mb-6">
-              <Badge className="bg-green-100 text-green-700 border-green-200">
+              <Badge className="bg-green-100 text-green-600 border-green-200">
                 🇩🇪 Your German Career Journey Starts Here
               </Badge>
             </div>
