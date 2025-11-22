@@ -1,11 +1,11 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Layout from "./layout"; // fixed: was ./components/Layout
-import Home from "./Pages/Home";
-import Jobs from "./Pages/Jobs";
-import Contact from "./Pages/Contact"; // fixed: was Contacts
-import News from "./Pages/News";
-import Services from "./Pages/Services";
+import Home from "./pages/Home.jsx";
+import Jobs from "./pages/Jobs.jsx";
+import Contact from "./pages/Contact.jsx"; // fixed: was Contacts
+import News from "./pages/News.jsx";
+import Services from "./pages/Services.jsx";
 
 export default function App() {
   return (
