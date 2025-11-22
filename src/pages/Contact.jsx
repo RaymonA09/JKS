@@ -104,7 +104,7 @@ Please follow up with this potential client.
             <Badge className="bg-green-100 text-green-700 border-green-200">
               ✓ Free Initial Consultation
             </Badge>
-            <Badge className="bg-red-100 text-red-700 border-red-200">
+            <Badge className="bg-blue-100 text-blue-700 border-blue-200">
               ✓ 24h Response Time
             </Badge>
             <Badge className="bg-purple-100 text-purple-700 border-purple-200">

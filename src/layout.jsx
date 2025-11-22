@@ -21,13 +21,14 @@ export default function Layout({ children, currentPageName }) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link to={createPageUrl("Home")} className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-gradient-to-r from-green-600 to-blue-600 rounded-lg flex items-center justify-center">
-                <MapPin className="w-6 h-6 text-white" />
+              <div className="w-25 h-15 rounded-lg flex items-center justify-center">
+                <img src="./images/GermanyLogo.png" className="w-30 h-20"/>
+                {/* <MapPin className="w-6 h-6 text-white" /> */}
               </div>
-              <div>
+              {/* <div>
                 <h1 className="text-xl font-bold text-gray-900">JKS</h1>
                 <p className="text-xs text-gray-500">JourneyKarrierStart</p>
-              </div>
+              </div> */}
             </Link>
 
             <nav className="hidden md:flex space-x-8">

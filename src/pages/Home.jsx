@@ -43,13 +43,13 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to={createPageUrl("Contact")}>
-              <Button size="lg" className="bg-white text-blue-600 hover:bg-gray-50 w-full sm:w-auto">
+              <Button size="lg" className="bg-white text-blue-600 hover:text-blue-900 hover:bg-gray-50 w-full sm:w-auto">
                 Get Free Consultation
                 <ArrowRight className="w-5 h-5 ml-2" />
               </Button>
             </Link>
             <Link to={createPageUrl("Services")}>
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-blue-600 w-full sm:w-auto">
+              <Button size="lg" variant="outline" className="border-white text-blue-600 hover:text-blue-900 w-full sm:w-auto">
                 View All Services
               </Button>
             </Link>
