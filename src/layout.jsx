@@ -1,10 +1,11 @@
-import React from "react";
+import React, {useState} from "react";
 import { Link, useLocation } from "react-router-dom";
 import { createPageUrl } from "@/utils";
-import { MapPin, Phone, Mail, FileText, Users, Briefcase, Newspaper, Building } from "lucide-react";
+import { MapPin, Phone, Mail, FileText, Users, Briefcase, Newspaper, Building, Menu, X } from "lucide-react";
 
 export default function Layout({ children, currentPageName }) {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const navigationItems = [
     { name: "Home", url: createPageUrl("Home"), icon: MapPin },
@@ -49,36 +50,41 @@ export default function Layout({ children, currentPageName }) {
             </nav>
 
             {/* Mobile menu button */}
-            <div className="md:hidden">
-              <Link
-                to={createPageUrl("Contact")}
-                className="bg-green-600 text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-green-700 transition-colors duration-200"
-              >
-                Get Help
-              </Link>
-            </div>
+            <button
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              className="md:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+            >
+              {isMobileMenuOpen ? (
+                <X className="w-6 h-6 text-gray-600" />
+              ) : (
+                <Menu className="w-6 h-6 text-gray-600" />
+              )}
+            </button>
           </div>
         </div>
 
         {/* Mobile Navigation */}
-        <div className="md:hidden bg-white border-t border-gray-100">
-          <div className="px-4 py-2 space-y-1">
-            {navigationItems.map((item) => (
-              <Link
-                key={item.name}
-                to={item.url}
-                className={`flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
-                  location.pathname === item.url
-                    ? "bg-green-50 text-green-700"
-                    : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
-                }`}
-              >
-                <item.icon className="w-4 h-4" />
-                <span>{item.name}</span>
-              </Link>
-            ))}
+        {isMobileMenuOpen && (
+          <div className="md:hidden bg-white border-t border-gray-100">
+            <div className="px-4 py-2 space-y-1">
+              {navigationItems.map((item) => (
+                <Link
+                  key={item.name}
+                  to={item.url}
+                  onClick={() => setIsMobileMenuOpen(false)}
+                  className={`flex items-center space-x-3 px-3 py-2 rounded-lg text-sm font-medium transition-colors duration-200 ${
+                    location.pathname === item.url
+                      ? "bg-green-50 text-green-700"
+                      : "text-gray-600 hover:text-gray-900 hover:bg-gray-50"
+                  }`}
+                >
+                  <item.icon className="w-4 h-4" />
+                  <span>{item.name}</span>
+                </Link>
+              ))}
+            </div>
           </div>
-        </div>
+        )}
       </header>
 
       {/* Main Content */}
