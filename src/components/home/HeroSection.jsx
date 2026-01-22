@@ -25,7 +25,7 @@ export default function HeroSection() {
             
             <h1 className="text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Start Your
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-600 to-blue-600 block">
+              <span className="text-transparent bg-{#351061} bg-clip-text bg-gradient-to-r from-green-600 to-blue-600 block">
                 Career Journey
               </span>
               in Germany

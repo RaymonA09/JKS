@@ -48,24 +48,28 @@ export default function Services() {
       price: "text-blue-600",
       icon: "text-blue-500",
       button: "bg-blue-600 hover:bg-blue-700",
+      gradient: "bg-gradient-to-r from-blue-50 to-green-50",
     },
     anerkennung: {
       hover: "hover:border-green-400 hover:bg-green-50",
       price: "text-green-600",
       icon: "text-green-500",
       button: "bg-green-600 hover:bg-green-700",
+      gradient: "bg-gradient-to-r from-green-50 to-teal-50",
     },
     ausbildung: {
       hover: "hover:border-orange-400 hover:bg-orange-50",
       price: "text-orange-600",
       icon: "text-orange-500",
       button: "bg-orange-600 hover:bg-orange-700",
+      gradient: "bg-gradient-to-r from-orange-50 to-yellow-50",
     },
     tax: {
       hover: "hover:border-indigo-400 hover:bg-indigo-50",
       price: "text-indigo-600",
       icon: "text-indigo-500",
       button: "bg-indigo-600 hover:bg-indigo-700",
+      gradient: "bg-gradient-to-r from-indigo-50 to-purple-50",
     },
   };
 

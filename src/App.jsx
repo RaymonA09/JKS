@@ -1,11 +1,12 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Layout from "./layout"; // fixed: was ./components/Layout
+import Layout from "./layout";
 import Home from "./pages/Home.jsx";
 import Jobs from "./pages/Jobs.jsx";
-import Contact from "./pages/Contact.jsx"; // fixed: was Contacts
+import Contact from "./pages/Contact.jsx";
 import News from "./pages/News.jsx";
 import Services from "./pages/Services.jsx";
+import Pricing from "./pages/Pricing.jsx";
 
 export default function App() {
   return (
@@ -16,6 +17,7 @@ export default function App() {
         <Route path="/contact" element={<Contact />} /> 
         <Route path="/news" element={<News />} />
         <Route path="/services" element={<Services />} />
+        <Route path="/pricing" element={<Pricing />} />
       </Routes>
     </Layout>
   );

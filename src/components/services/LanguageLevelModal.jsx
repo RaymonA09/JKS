@@ -32,10 +32,10 @@ export function LanguageLevelModal({ level }) {
                 <div className="flex justify-between items-start mb-3">
                 <div>
                     <h3 className="text-2xl font-bold text-purple-600 mb-1">{level.level}</h3>
-                    <h4 className="font-semibold text-gray-900">{level.title}</h4>
+                    <h4 className="text-xs font-semibold text-gray-900">{level.title}</h4>
                 </div>
                 <div className="text-right">
-                    <div className="text-lg font-bold text-purple-600">{level.price}</div>
+                <div className="text-xs font-semibold text-purple-600 bg-purple-50 px-3 py-1 rounded-full">{level.keyBenefit}</div>
                     <div className="text-xs text-gray-500">{level.duration}</div>
                 </div>
                 </div>

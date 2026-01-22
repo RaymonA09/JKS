@@ -20,6 +20,7 @@ export const serviceCategories = [
         description: "Vocational training programs combining work and study in Germany",
         duration: "4-8 weeks",
         price: "€499",
+        keyBenefit: "Complete Training Support",
         features: ["Training place matching", "Visa application support", "Document preparation", "Interview preparation"],
         popular: true
       },
@@ -29,6 +30,7 @@ export const serviceCategories = [
         description: "Visa for qualified professionals to search for employment in Germany",
         duration: "6-10 weeks",
         price: "€449",
+        keyBenefit: "6-Month Job Search Period",
         features: ["Job search strategy", "Networking support", "Application guidance", "6-month validity"],
         popular: false
       },
@@ -38,6 +40,7 @@ export const serviceCategories = [
         description: "Points-based visa for skilled workers seeking opportunities in Germany",
         duration: "6-12 weeks",
         price: "€549",
+        keyBenefit: "Fast-Track Processing",
         features: ["Points assessment", "Application support", "Job search assistance", "Fast-track processing"],
         popular: true
       },
@@ -47,6 +50,7 @@ export const serviceCategories = [
         description: "For international students applying to German universities and colleges",
         duration: "6-12 weeks",
         price: "€399",
+        keyBenefit: "University Enrollment Support",
         features: ["University enrollment support", "Financial documentation", "Health insurance", "Blocked account setup"],
         popular: false
       },
@@ -56,6 +60,7 @@ export const serviceCategories = [
         description: "Cultural exchange visa for young people to live with German families",
         duration: "2-4 weeks",
         price: "€299",
+        keyBenefit: "Host Family Matching",
         features: ["Host family matching", "Cultural exchange program", "Language support", "Complete documentation"],
         popular: true
       }
@@ -82,6 +87,7 @@ export const serviceCategories = [
         description: "Recognition of foreign university degrees and academic qualifications",
         duration: "8-16 weeks",
         price: "€549",
+        keyBenefit: "Full Degree Evaluation",
         features: ["Degree evaluation", "Document translation", "Authority coordination", "Appeal support if needed"]
       },
       {
@@ -90,6 +96,7 @@ export const serviceCategories = [
         description: "Recognition of foreign vocational qualifications and apprenticeships",
         duration: "6-12 weeks",
         price: "€449",
+        keyBenefit: "Skills Gap Analysis",
         features: ["Skills assessment", "Equivalency determination", "Gap training", "Certificate processing"]
       },
       {
@@ -98,6 +105,7 @@ export const serviceCategories = [
         description: "Recognition for regulated professions (doctors, nurses, engineers, teachers)",
         duration: "12-24 weeks",
         price: "€799",
+        keyBenefit: "Licensed Professional Path",
         features: ["Professional assessment", "Skills gap analysis", "Training guidance", "License application"]
       },
     ]
@@ -115,6 +123,7 @@ export const serviceCategories = [
         description: "Find and secure positions in German dual education training programs",
         duration: "3-6 months",
         price: "€799",
+        keyBenefit: "Direct Company Connections",
         features: ["Program matching", "Company connections", "Application support", "Contract negotiation"],
         popular: true
       },
@@ -124,6 +133,7 @@ export const serviceCategories = [
         description: "Prepare for your Ausbildung with language and professional training",
         duration: "2-3 months",
         price: "€599",
+        keyBenefit: "Language & Culture Ready",
         features: ["Language preparation", "Professional orientation", "Cultural training", "Document support"]
       },
       {
@@ -132,6 +142,7 @@ export const serviceCategories = [
         description: "Support during your training period in Germany",
         duration: "Throughout training",
         price: "€99/month",
+        keyBenefit: "Continuous Mentorship",
         features: ["Academic support", "Workplace guidance", "Legal assistance", "Integration help"]
       }
     ]
@@ -149,6 +160,7 @@ export const serviceCategories = [
         description: "Help with initial tax registration and understanding German tax system",
         duration: "1-2 weeks",
         price: "€199",
+        keyBenefit: "Fast Tax ID Setup",
         features: ["Tax ID registration", "Tax class determination", "System explanation", "Document preparation"]
       },
       {
@@ -157,6 +169,7 @@ export const serviceCategories = [
         description: "Complete preparation and filing of your annual tax return",
         duration: "2-4 weeks",
         price: "€299",
+        keyBenefit: "Maximum Refund Focus",
         features: ["Document collection", "Return preparation", "Online filing", "Refund optimization"]
       },
       {
@@ -165,6 +178,7 @@ export const serviceCategories = [
         description: "Professional tax advice and planning for optimal tax benefits",
         duration: "Ongoing",
         price: "€149/session",
+        keyBenefit: "Personalized Tax Strategy",
         features: ["Tax optimization", "Deduction advice", "Financial planning", "Legal compliance"]
       },
       {
@@ -173,6 +187,7 @@ export const serviceCategories = [
         description: "Specialized tax support for freelancers and self-employed individuals",
         duration: "Ongoing",
         price: "€399/year",
+        keyBenefit: "Full Freelance Support",
         features: ["Quarterly filings", "VAT handling", "Business expenses", "Record keeping"]
       }
     ]

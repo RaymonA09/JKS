@@ -4,6 +4,7 @@ export const languageLevels = [
     title: "Beginner Level A1",
     description: "Start your German journey with basic communication skills",
     price: "€149/month",
+    keyBenefit: "Best for Beginners",
     duration: "8 weeks",
     guidelines: {
       format: "Blended Learning",
@@ -24,6 +25,7 @@ export const languageLevels = [
     level: "A2",
     title: "Elementary Level A2",
     description: "Build on your basics and handle everyday situations",
+    keyBenefit: "Everyday Conversation",
     price: "€159/month",
     duration: "8 weeks",
     guidelines: {
@@ -45,6 +47,7 @@ export const languageLevels = [
     level: "B1",
     title: "Intermediate Level B1",
     description: "Communicate independently in familiar situations",
+    keyBenefit: "Job Application Ready",
     price: "€169/month",
     duration: "10 weeks",
     guidelines: {
@@ -66,6 +69,7 @@ export const languageLevels = [
     level: "B2",
     title: "Intermediate Level B2",
     description: "Express yourself fluently and understand complex texts",
+    keyBenefit: "Professional Fluency",
     price: "€179/month",
     duration: "10 weeks",
     guidelines: {
@@ -87,6 +91,7 @@ export const languageLevels = [
     level: "C1",
     title: "Advanced Level C1",
     description: "Master complex German in professional and academic contexts",
+    keyBenefit: "Academic Excellence",
     price: "€189/month",
     duration: "12 weeks",
     guidelines: {
@@ -108,6 +113,7 @@ export const languageLevels = [
     level: "C2",
     title: "Mastery Level C2",
     description: "Achieve near-native proficiency in all aspects of German",
+    keyBenefit: "Native-Like Mastery",
     price: "€199/month",
     duration: "12 weeks",
     guidelines: {
